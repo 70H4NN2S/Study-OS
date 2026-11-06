@@ -5,3 +5,28 @@ PROG-C-LISTS,programming,C,Implement singly linked lists,PROG-C-POINTERS,propose
 DB-ER-CHEN,databases,ER modeling,Construct and justify Chen ER diagrams,,proposed
 OS-PROCESSES,operating-systems,Processes,Explain process lifecycle,,proposed
 SEC-THREATS,security,Threat modeling,Identify assets threats and mitigations,,proposed
+PROG-C-FOUNDATIONS,programming,C,"Build and execute strict C11 translation units",,proposed
+PROG-C-TYPES,programming,C,"Reason about C integer types and conversions",PROG-C-FOUNDATIONS,proposed
+PROG-C-CONTROL,programming,C,"Implement branching and loops with invariants",PROG-C-FOUNDATIONS,proposed
+PROG-C-ARRAYS,programming,C,"Handle bounded and multidimensional arrays",PROG-C-CONTROL,proposed
+PROG-C-ALGORITHMS,programming,C,"Implement and analyze core algorithms and containers",PROG-C-ARRAYS,proposed
+PROG-C-FUNCTIONS,programming,C,"Define contracts, calls and recursion correctly",PROG-C-CONTROL,proposed
+PROG-C-STRINGS,programming,C,"Manipulate and parse NUL-terminated byte strings safely",PROG-C-ARRAYS,proposed
+PROG-C-STRUCTS,programming,C,"Model records, enums and tagged unions",PROG-C-POINTERS,proposed
+PROG-C-ERROR,programming,C,"Detect and propagate C/POSIX errors safely",PROG-C-FUNCTIONS,proposed
+PROG-C-HEAP,programming,C,"Manage dynamic memory and ownership safely",PROG-C-POINTERS,proposed
+PROG-C-PERFORMANCE,programming,C,"Analyze amortized costs and memory locality",PROG-C-ARRAYS,proposed
+PROG-C-MEMORY-MODEL,programming,C,"Reason about lifetime, alignment and virtual memory",PROG-C-HEAP,proposed
+PROG-C-TOOLCHAIN,programming,C,"Use headers, translation units, Make and strict builds",PROG-C-FOUNDATIONS,proposed
+PROG-C-PREPROCESSOR,programming,C,"Use conditional compilation and macros safely",PROG-C-TOOLCHAIN,proposed
+PROG-C-GENERIC,programming,C,"Implement generic interfaces with callbacks and void pointers",PROG-C-POINTERS,proposed
+PROG-C-DESIGN,programming,C,"Integrate maintainable, testable systems components",PROG-C-TOOLCHAIN,proposed
+PROG-C-FILES,programming,C,"Read and write text and portable binary files",PROG-C-ERROR,proposed
+PROG-C-POSIX-FS,programming,C,"Use POSIX descriptors, directories and metadata safely",PROG-C-FILES,proposed
+PROG-C-PROCESSES,programming,C,"Manage fork exec wait and child lifecycles",PROG-C-POSIX-FS,proposed
+PROG-C-SIGNALS,programming,C,"Handle signals and termination safely",PROG-C-PROCESSES,proposed
+PROG-C-IPC,programming,C,"Communicate through pipes and shared memory",PROG-C-PROCESSES,proposed
+PROG-C-CONCURRENCY,programming,C,"Synchronize POSIX threads and prevent races/deadlock",PROG-C-HEAP,proposed
+PROG-C-ATOMICS,programming,C,"Use C11 atomic operations and memory ordering",PROG-C-CONCURRENCY,proposed
+PROG-C-NETWORK,programming,C,"Implement bounded loopback TCP protocols",PROG-C-POSIX-FS,proposed
+PROG-C-SECURITY,programming,C,"Recognize undefined behavior and validate hostile inputs",PROG-C-POINTERS,proposed

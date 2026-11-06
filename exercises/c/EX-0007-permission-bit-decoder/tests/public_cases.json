@@ -1,0 +1,14 @@
+[
+  {
+    "name": "read execute",
+    "stdin": "5\n",
+    "stdout": "r-x\n",
+    "exit": 0
+  },
+  {
+    "name": "no flags",
+    "stdin": "0\n",
+    "stdout": "---\n",
+    "exit": 0
+  }
+]

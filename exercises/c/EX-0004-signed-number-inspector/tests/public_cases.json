@@ -1,0 +1,14 @@
+[
+  {
+    "name": "negative odd",
+    "stdin": "-3\n",
+    "stdout": "negative odd\n",
+    "exit": 0
+  },
+  {
+    "name": "zero",
+    "stdin": "0\n",
+    "stdout": "zero even\n",
+    "exit": 0
+  }
+]

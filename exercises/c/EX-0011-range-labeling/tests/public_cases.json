@@ -1,0 +1,8 @@
+[
+  {
+    "name": "small range",
+    "stdin": "5\n",
+    "stdout": "1\n2\nFizz\n4\nBuzz\n",
+    "exit": 0
+  }
+]

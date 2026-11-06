@@ -1,6 +1,6 @@
 # EX-0092 — Streaming framed-message parser
 
-- **Track:** C mastery · stage 5/10 advanced systems, concurrency, memory and integration · 92/100
+- **Track:** C mastery · module 10/10 · 92/100
 - **Target skills:** PROG-C-SECURITY
 - **Difficulty / estimated time:** 9/10 · 3–8 hours
 - **Prerequisites:** stages 1–4; Linux VM strongly recommended (Debian/Ubuntu), C11, Make, POSIX APIs, debugger/sanitizers.

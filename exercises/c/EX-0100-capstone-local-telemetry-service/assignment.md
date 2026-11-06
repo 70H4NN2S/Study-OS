@@ -1,6 +1,6 @@
 # EX-0100 — Capstone: local telemetry service
 
-- **Track:** C mastery · stage 5/10 advanced systems, concurrency, memory and integration · 100/100
+- **Track:** C mastery · module 10/10 · 100/100
 - **Target skills:** PROG-C-DESIGN
 - **Difficulty / estimated time:** 10/10 · multi-session capstone (12–25 hours)
 - **Prerequisites:** stages 1–4; Linux VM strongly recommended (Debian/Ubuntu), C11, Make, POSIX APIs, debugger/sanitizers.

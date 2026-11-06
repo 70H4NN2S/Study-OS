@@ -1,6 +1,6 @@
 # EX-0015 — Streaming extremes
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 15/100
+- **Track:** Progressive C mastery · module 2/10 · exercise 15/100
 - **Target skills:** PROG-C-ARRAYS
 - **Difficulty / estimated time:** 3/10 · 35–70 minutes
 - **Prerequisites:** EX-0014 recommended; do not require perfect completion

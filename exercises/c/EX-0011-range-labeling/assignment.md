@@ -1,6 +1,6 @@
 # EX-0011 — Range labeling
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 11/100
+- **Track:** Progressive C mastery · module 2/10 · exercise 11/100
 - **Target skills:** PROG-C-CONTROL
 - **Difficulty / estimated time:** 3/10 · 35–70 minutes
 - **Prerequisites:** EX-0010 recommended; do not require perfect completion

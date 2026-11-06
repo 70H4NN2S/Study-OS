@@ -1,6 +1,6 @@
 # EX-0013 — Euclidean toolkit
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 13/100
+- **Track:** Progressive C mastery · module 2/10 · exercise 13/100
 - **Target skills:** PROG-C-FUNCTIONS
 - **Difficulty / estimated time:** 3/10 · 35–70 minutes
 - **Prerequisites:** EX-0012 recommended; do not require perfect completion

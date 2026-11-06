@@ -1,6 +1,6 @@
 # EX-0025 — Safe integer parser
 
-- **Track:** C mastery · stage 2/10 strings, pointers, structs and defensive programming · 25/100
+- **Track:** C mastery · module 3/10 · 25/100
 - **Target skills:** PROG-C-ERROR
 - **Difficulty / estimated time:** 4/10 · 40–85 minutes
 - **Prerequisites:** C arrays, functions, basic input validation; earlier stages recommended. 

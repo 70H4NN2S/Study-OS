@@ -1,6 +1,6 @@
 # EX-0018 — Binary search contract
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 18/100
+- **Track:** Progressive C mastery · module 2/10 · exercise 18/100
 - **Target skills:** PROG-C-ALGORITHMS
 - **Difficulty / estimated time:** 4/10 · 35–70 minutes
 - **Prerequisites:** EX-0017 recommended; do not require perfect completion

@@ -1,6 +1,6 @@
 # EX-0016 — Stable unique values
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 16/100
+- **Track:** Progressive C mastery · module 2/10 · exercise 16/100
 - **Target skills:** PROG-C-ARRAYS
 - **Difficulty / estimated time:** 4/10 · 35–70 minutes
 - **Prerequisites:** EX-0015 recommended; do not require perfect completion

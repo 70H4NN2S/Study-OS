@@ -1,6 +1,6 @@
 # EX-0014 — Small histogram
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 14/100
+- **Track:** Progressive C mastery · module 2/10 · exercise 14/100
 - **Target skills:** PROG-C-ARRAYS
 - **Difficulty / estimated time:** 3/10 · 35–70 minutes
 - **Prerequisites:** EX-0013 recommended; do not require perfect completion

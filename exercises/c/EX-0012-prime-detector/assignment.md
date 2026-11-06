@@ -1,6 +1,6 @@
 # EX-0012 — Prime detector
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 12/100
+- **Track:** Progressive C mastery · module 2/10 · exercise 12/100
 - **Target skills:** PROG-C-ALGORITHMS
 - **Difficulty / estimated time:** 3/10 · 35–70 minutes
 - **Prerequisites:** EX-0011 recommended; do not require perfect completion

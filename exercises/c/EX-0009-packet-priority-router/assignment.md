@@ -1,6 +1,6 @@
 # EX-0009 — Packet priority router
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 9/100
+- **Track:** Progressive C mastery · module 1/10 · exercise 9/100
 - **Target skills:** PROG-C-CONTROL
 - **Difficulty / estimated time:** 2/10 · 20–45 minutes
 - **Prerequisites:** EX-0008 recommended; do not require perfect completion

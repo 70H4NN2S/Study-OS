@@ -1,6 +1,6 @@
 # EX-0005 — Tiered bandwidth billing
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 5/100
+- **Track:** Progressive C mastery · module 1/10 · exercise 5/100
 - **Target skills:** PROG-C-CONTROL
 - **Difficulty / estimated time:** 1/10 · 20–45 minutes
 - **Prerequisites:** EX-0004 recommended; do not require perfect completion

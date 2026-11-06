@@ -1,6 +1,6 @@
 # EX-0001 — Hello, toolchain
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 1/100
+- **Track:** Progressive C mastery · module 1/10 · exercise 1/100
 - **Target skills:** PROG-C-FOUNDATIONS
 - **Difficulty / estimated time:** 1/10 · 20–45 minutes
 - **Prerequisites:** basic terminal usage

@@ -1,6 +1,6 @@
 # EX-0004 — Signed number inspector
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 4/100
+- **Track:** Progressive C mastery · module 1/10 · exercise 4/100
 - **Target skills:** PROG-C-CONTROL
 - **Difficulty / estimated time:** 1/10 · 20–45 minutes
 - **Prerequisites:** EX-0003 recommended; do not require perfect completion

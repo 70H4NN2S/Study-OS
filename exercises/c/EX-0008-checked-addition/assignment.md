@@ -1,6 +1,6 @@
 # EX-0008 — Checked addition
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 8/100
+- **Track:** Progressive C mastery · module 1/10 · exercise 8/100
 - **Target skills:** PROG-C-TYPES
 - **Difficulty / estimated time:** 2/10 · 20–45 minutes
 - **Prerequisites:** EX-0007 recommended; do not require perfect completion

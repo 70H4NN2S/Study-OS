@@ -1,6 +1,6 @@
 # EX-0003 — Clock formatter
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 3/100
+- **Track:** Progressive C mastery · module 1/10 · exercise 3/100
 - **Target skills:** PROG-C-TYPES
 - **Difficulty / estimated time:** 1/10 · 20–45 minutes
 - **Prerequisites:** EX-0002 recommended; do not require perfect completion

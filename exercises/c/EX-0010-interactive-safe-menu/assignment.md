@@ -1,6 +1,6 @@
 # EX-0010 — Interactive safe menu
 
-- **Track:** Progressive C mastery · stage 1/10 (fundamentals) · exercise 10/100
+- **Track:** Progressive C mastery · module 1/10 · exercise 10/100
 - **Target skills:** PROG-C-CONTROL
 - **Difficulty / estimated time:** 2/10 · 20–45 minutes
 - **Prerequisites:** EX-0009 recommended; do not require perfect completion

@@ -1,0 +1,7 @@
+skill_id,domain,topic,skill,prerequisites,status
+NET-IPV4-SUBNET,networking,IPv4,Calculate subnet ranges,,proposed
+PROG-C-POINTERS,programming,C,Use pointers safely in C,,proposed
+PROG-C-LISTS,programming,C,Implement singly linked lists,PROG-C-POINTERS,proposed
+DB-ER-CHEN,databases,ER modeling,Construct and justify Chen ER diagrams,,proposed
+OS-PROCESSES,operating-systems,Processes,Explain process lifecycle,,proposed
+SEC-THREATS,security,Threat modeling,Identify assets threats and mitigations,,proposed

@@ -1,0 +1,16 @@
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.o
+*.exe
+build/
+dist/
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

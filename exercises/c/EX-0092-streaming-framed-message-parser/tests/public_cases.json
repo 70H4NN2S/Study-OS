@@ -1,0 +1,20 @@
+[
+  {
+    "name": "case 1",
+    "stdin": "3cat",
+    "stdout": "cat\n",
+    "exit": 0
+  },
+  {
+    "name": "case 2",
+    "stdin": "4hi",
+    "stdout": "short\n",
+    "exit": 0
+  },
+  {
+    "name": "case 3",
+    "stdin": "0",
+    "stdout": "\n",
+    "exit": 0
+  }
+]

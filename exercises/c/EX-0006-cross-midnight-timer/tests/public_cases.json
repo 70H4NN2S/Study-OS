@@ -1,0 +1,14 @@
+[
+  {
+    "name": "midnight",
+    "stdin": "23 50 0 10\n",
+    "stdout": "20\n",
+    "exit": 0
+  },
+  {
+    "name": "same time",
+    "stdin": "9 0 9 0\n",
+    "stdout": "0\n",
+    "exit": 0
+  }
+]

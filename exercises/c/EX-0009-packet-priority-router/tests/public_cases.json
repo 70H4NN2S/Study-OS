@@ -1,0 +1,14 @@
+[
+  {
+    "name": "urgent",
+    "stdin": "3\n",
+    "stdout": "urgent\n",
+    "exit": 0
+  },
+  {
+    "name": "invalid",
+    "stdin": "4\n",
+    "stdout": "",
+    "exit": 2
+  }
+]

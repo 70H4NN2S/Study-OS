@@ -1,0 +1,20 @@
+[
+  {
+    "name": "included usage",
+    "stdin": "10\n",
+    "stdout": "0\n",
+    "exit": 0
+  },
+  {
+    "name": "two tiers",
+    "stdin": "50\n",
+    "stdout": "80\n",
+    "exit": 0
+  },
+  {
+    "name": "beyond second tier",
+    "stdin": "55\n",
+    "stdout": "85\n",
+    "exit": 0
+  }
+]

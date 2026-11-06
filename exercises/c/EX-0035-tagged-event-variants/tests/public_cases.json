@@ -1,0 +1,14 @@
+[
+  {
+    "name": "case 1",
+    "stdin": "TEMP 20\n",
+    "stdout": "temperature=20\n",
+    "exit": 0
+  },
+  {
+    "name": "case 2",
+    "stdin": "ALARM 3\n",
+    "stdout": "alarm=3\n",
+    "exit": 0
+  }
+]

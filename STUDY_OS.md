@@ -5,6 +5,11 @@
 ## Intent and roles
 User initiates exercises, project work and one or two weekend exams through ChatGPT, optionally specifying examples, lectures, format, difficulty, time, resources or topic combinations. AI may design the exercise independently within that scope. User can request feedback and protocol changes over time. No background monitoring, unsolicited generation, mandatory issue-per-task, app, dashboard or Anki. Open reviewable PRs; **never auto-merge without request**.
 
+## Default invocation: "Study OS" + a study topic
+When the user says **Study OS** in a learning request and names or supplies a topic, exercise, lecture, example, objective, or exam scope, **treat that as authorization to produce a reviewable GitHub pull request** with relevant exercise(s), project work, or exam(s). Do not require the user to repeat "make a PR" or reconfirm routine file creation. First retrieve this contract, state records, relevant curriculum, and any provided or previously linked accessible materials. Use those materials to calibrate instructions, learning objectives, difficulty and prerequisites. Choose the best format, include starter files and tests if appropriate, and publish the assignment with exact deliverables, assistance policy, submission path, rubric and verification method. Return the PR URL.
+
+If the user asks to **grade/review a Study OS submission**, instead inspect the submitted files and linked materials, evaluate them and propose a state-update PR; do not generate an unrelated new exercise. If the user explicitly wants only discussion, planning or an explanation, **do not** create an unsolicited exercise PR. Ask for essential missing input only when the exercise/exam cannot reasonably be scoped, otherwise make sensible assumptions. Never merge a PR without authorization.
+
 ## Learning methods
 - **Active recall:** ask for independent retrieval before showing answers.
 - **Spaced repetition:** revisit concepts with new tasks after increasing evidence-based intervals (initial illustrative 1, 3, 7, 14, 30 days), shorten after failure. Review due dates are prompts, not precise forgetting predictions.

@@ -5,6 +5,8 @@ A lightweight, GitHub-centered, ChatGPT-assisted learning system. **GitHub is th
 ## Quick start
 In any ChatGPT chat with GitHub access: **"Study OS: read STUDY_OS.md and state/, then create an exercise on [topic] as a PR."** For grading: **"Study OS: review my submission in PR/commit [link], grade it using the rubric, and propose state updates."** On weekends: **"Study OS: create my weekly exam from recent and overdue skills."**
 
+**Default trigger:** Simply write **"Study OS: [topic or provided materials]"**. For a study task, ChatGPT should read the relevant repository context and source materials and **open an exercise or exam PR automatically**; no additional "make a PR" instruction is needed. For reviews, it grades your submission instead. Explicit discussion-only requests do not generate assignments.
+
 ## Structure
 - [STUDY_OS.md](STUDY_OS.md): authoritative operating rules
 - [AGENTS.md](AGENTS.md): entry point for future chats/agents

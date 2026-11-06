@@ -1,6 +1,6 @@
 # EX-0031 — Pointer swap laboratory
 
-- **Track:** C mastery · stage 2/10 strings, pointers, structs and defensive programming · 31/100
+- **Track:** C mastery · module 4/10 · 31/100
 - **Target skills:** PROG-C-POINTERS
 - **Difficulty / estimated time:** 5/10 · 60–100 minutes
 - **Prerequisites:** C arrays, functions, basic input validation; earlier stages recommended. 

@@ -1,6 +1,6 @@
 # EX-0027 — Text word wrapper
 
-- **Track:** C mastery · stage 2/10 strings, pointers, structs and defensive programming · 27/100
+- **Track:** C mastery · module 3/10 · 27/100
 - **Target skills:** PROG-C-STRINGS
 - **Difficulty / estimated time:** 4/10 · 40–85 minutes
 - **Prerequisites:** C arrays, functions, basic input validation; earlier stages recommended. 

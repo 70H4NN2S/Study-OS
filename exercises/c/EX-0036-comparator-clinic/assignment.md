@@ -1,6 +1,6 @@
 # EX-0036 — Comparator clinic
 
-- **Track:** C mastery · stage 2/10 strings, pointers, structs and defensive programming · 36/100
+- **Track:** C mastery · module 4/10 · 36/100
 - **Target skills:** PROG-C-FUNCTIONS
 - **Difficulty / estimated time:** 5/10 · 60–100 minutes
 - **Prerequisites:** C arrays, functions, basic input validation; earlier stages recommended. 

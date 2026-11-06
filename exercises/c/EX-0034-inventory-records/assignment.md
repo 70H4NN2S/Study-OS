@@ -1,6 +1,6 @@
 # EX-0034 — Inventory records
 
-- **Track:** C mastery · stage 2/10 strings, pointers, structs and defensive programming · 34/100
+- **Track:** C mastery · module 4/10 · 34/100
 - **Target skills:** PROG-C-STRUCTS
 - **Difficulty / estimated time:** 5/10 · 60–100 minutes
 - **Prerequisites:** C arrays, functions, basic input validation; earlier stages recommended. 

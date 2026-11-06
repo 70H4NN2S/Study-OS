@@ -1,6 +1,6 @@
 # EX-0039 — Recursion and stack limits
 
-- **Track:** C mastery · stage 2/10 strings, pointers, structs and defensive programming · 39/100
+- **Track:** C mastery · module 4/10 · 39/100
 - **Target skills:** PROG-C-FUNCTIONS
 - **Difficulty / estimated time:** 5/10 · 60–100 minutes
 - **Prerequisites:** C arrays, functions, basic input validation; earlier stages recommended. 

@@ -1,6 +1,6 @@
 # EX-0055 — Error-aware parser library
 
-- **Track:** C mastery · stage 3/10 manual memory, data structures, modular builds · 55/100
+- **Track:** C mastery · module 6/10 · 55/100
 - **Target skills:** PROG-C-ERROR
 - **Difficulty / estimated time:** 6/10 · 75–150 minutes
 - **Prerequisites:** functions, pointers, arrays, and at least one preceding heap/struct practice exercise.

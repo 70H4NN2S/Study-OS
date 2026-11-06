@@ -1,6 +1,6 @@
 # EX-0052 — Make rebuild rules
 
-- **Track:** C mastery · stage 3/10 manual memory, data structures, modular builds · 52/100
+- **Track:** C mastery · module 6/10 · 52/100
 - **Target skills:** PROG-C-TOOLCHAIN
 - **Difficulty / estimated time:** 6/10 · 75–150 minutes
 - **Prerequisites:** functions, pointers, arrays, and at least one preceding heap/struct practice exercise.

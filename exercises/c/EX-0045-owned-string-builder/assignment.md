@@ -1,6 +1,6 @@
 # EX-0045 — Owned string builder
 
-- **Track:** C mastery · stage 3/10 manual memory, data structures, modular builds · 45/100
+- **Track:** C mastery · module 5/10 · 45/100
 - **Target skills:** PROG-C-HEAP
 - **Difficulty / estimated time:** 5/10 · 60–100 minutes
 - **Prerequisites:** functions, pointers, arrays, and at least one preceding heap/struct practice exercise.

@@ -1,6 +1,6 @@
 # EX-0050 — Ring queue with wraparound
 
-- **Track:** C mastery · stage 3/10 manual memory, data structures, modular builds · 50/100
+- **Track:** C mastery · module 5/10 · 50/100
 - **Target skills:** PROG-C-ARRAYS
 - **Difficulty / estimated time:** 6/10 · 75–150 minutes
 - **Prerequisites:** functions, pointers, arrays, and at least one preceding heap/struct practice exercise.

@@ -1,6 +1,6 @@
 # EX-0049 — Doubly linked playlist
 
-- **Track:** C mastery · stage 3/10 manual memory, data structures, modular builds · 49/100
+- **Track:** C mastery · module 5/10 · 49/100
 - **Target skills:** PROG-C-LISTS, PROG-C-POINTERS
 - **Difficulty / estimated time:** 6/10 · 75–150 minutes
 - **Prerequisites:** functions, pointers, arrays, and at least one preceding heap/struct practice exercise.

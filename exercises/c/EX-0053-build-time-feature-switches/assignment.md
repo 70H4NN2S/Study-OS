@@ -1,6 +1,6 @@
 # EX-0053 — Build-time feature switches
 
-- **Track:** C mastery · stage 3/10 manual memory, data structures, modular builds · 53/100
+- **Track:** C mastery · module 6/10 · 53/100
 - **Target skills:** PROG-C-PREPROCESSOR
 - **Difficulty / estimated time:** 6/10 · 75–150 minutes
 - **Prerequisites:** functions, pointers, arrays, and at least one preceding heap/struct practice exercise.

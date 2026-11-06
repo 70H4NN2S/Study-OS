@@ -1,6 +1,6 @@
 # EX-0041 — Allocation failure discipline
 
-- **Track:** C mastery · stage 3/10 manual memory, data structures, modular builds · 41/100
+- **Track:** C mastery · module 5/10 · 41/100
 - **Target skills:** PROG-C-HEAP
 - **Difficulty / estimated time:** 5/10 · 60–100 minutes
 - **Prerequisites:** functions, pointers, arrays, and at least one preceding heap/struct practice exercise.

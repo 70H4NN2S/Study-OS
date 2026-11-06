@@ -1,6 +1,6 @@
 # EX-0051 — Multi-file library boundary
 
-- **Track:** C mastery · stage 3/10 manual memory, data structures, modular builds · 51/100
+- **Track:** C mastery · module 6/10 · 51/100
 - **Target skills:** PROG-C-TOOLCHAIN
 - **Difficulty / estimated time:** 6/10 · 75–150 minutes
 - **Prerequisites:** functions, pointers, arrays, and at least one preceding heap/struct practice exercise.

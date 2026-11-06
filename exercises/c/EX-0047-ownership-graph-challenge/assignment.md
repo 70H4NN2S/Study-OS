@@ -1,6 +1,6 @@
 # EX-0047 — Ownership graph challenge
 
-- **Track:** C mastery · stage 3/10 manual memory, data structures, modular builds · 47/100
+- **Track:** C mastery · module 5/10 · 47/100
 - **Target skills:** PROG-C-MEMORY-MODEL
 - **Difficulty / estimated time:** 6/10 · 75–150 minutes
 - **Prerequisites:** functions, pointers, arrays, and at least one preceding heap/struct practice exercise.

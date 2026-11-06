@@ -1,47 +1,11 @@
 # EX-0079 — Timed child supervisor
 
-- **Track:** C mastery · module 8/10 · 79/100
-- **Target skills:** PROG-C-SIGNALS
-- **Difficulty / estimated time:** 8/10 · 120–240 minutes
-- **Prerequisites:** stage 3 memory ownership + error handling; familiarity with Linux command line recommended.
-- **Environment:** Linux (Debian VM recommended); SUSv4/POSIX.1-2008 APIs; some tests may behave differently on macOS.
-- **Connections:** Combine input parsing, owned buffers, errno handling and data structures from previous stages.
+**Time:** ~35 min · **Skill:** `PROG-C-PROCESSES` · **Platform:** POSIX/Linux
 
-## Retrieval challenge
-Before coding: **Why must `SIGKILL` sometimes follow graceful termination?** In `reflection.md`, write an independent prediction, identify assumptions, and correct it after experimenting.
+**Task:** Fork a child blocked on `read` from a pipe; while pipe remains open, parent calls `waitpid(child,&status,WNOHANG)` and prints `running`.
 
-## Assignment
-Run a child executable with a deadline in seconds and terminate it if it exceeds deadline, then always reap it. Document exact timeout exit status.
+**Cases (stdin → stdout):** `""` → `"running\n"`
 
-**Expected behavior:** A quick `/bin/true` finishes normally; a deliberately sleeping program exceeds a short timeout and is terminated; no zombie remains.
+**Rules:** Then close write-end to unblock child and wait for it; no sleeps/timeouts.
 
-**Failure model / pitfall:** Use `sigaction`/`waitpid` safely, avoid unsafe signal-handler operations and document timing granularity.
-
-## Setup
-Create `src/*.c` and any `include/*.h` needed. Add a `Makefile` with `all`, `test`, `clean`; build with `-std=c11 -pedantic -D_XOPEN_SOURCE=700 -Wall -Wextra -Werror`. Do not use GNU-only extensions unless the task explicitly marks them as optional; only use binaries/paths under your own temporary test directory. Include a `FORMAT.md` for binary protocols or files when indicated. No solution is supplied.
-
-## Deliverables
-Commit sources, tests or reproducible `tests.md` (>=6 scenarios), `reflection.md` (predictions, findings, help level), a working `Makefile`, and any format/API documentation. Submit exact commit SHA/PR to Study OS. Do **not** reuse code as a university-graded submission where AI use is prohibited.
-
-## Allowed help
-Notes, local man pages and internet documentation are allowed. AI hint tier 1 after independent attempt; tier 2 conceptual; tier 3 scaffold/pseudocode after recording blocker; tier 4 full solution only upon explicit post-attempt request. Disclose actual assistance. For process/file experiments use only your own disposable test files and programs.
-
-## Acceptance criteria
-- Meet the behavior in the contract, including empty/truncated/invalid inputs.
-- Check error returns and preserve meaningful `errno` at failure sites.
-- No descriptor leaks, invalid heap accesses or unreaped children (as relevant).
-- Preserve binary content exactly and document format, encoding, ordering and exit statuses.
-- Show >=6 reproducible tests, including failure injection or concurrency scheduling where relevant.
-- Explain correctness, complexity and one tradeoff or race condition relevant to the interface.
-
-## Rubric (100 points)
-- Contract and observable results: **50**
-- Edge cases, safety and precise error handling: **25**
-- Build quality, tests and reproducibility: **15**
-- Independent conceptual explanation: **10**
-
-## Verification
-Reviewer inspects the exact commit, builds on a POSIX-compatible environment, runs supplied and novel cases, looks for leaks, missing EINTR loops and lifecycle errors. External command behavior must be checked in a controlled test folder. Never claim CI or sanitizer success until it has run.
-
-## Follow-up
-After assessment, interleave a related parser/heap challenge and schedule delayed transfer based on actual weak skills, not automatic completion counts.
+**Submit:** `src/main.c`. Check: `python3 tools/check_c.py EX-0079`.

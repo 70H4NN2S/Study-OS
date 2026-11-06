@@ -1,0 +1,14 @@
+[
+  {
+    "name": "case 1",
+    "stdin": "hello world\n",
+    "stdout": "world\nhello\n",
+    "exit": 0
+  },
+  {
+    "name": "case 2",
+    "stdin": "a b\n",
+    "stdout": "b\na\n",
+    "exit": 0
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "case 1",
+    "stdin": "4 -2 5 0 7\n",
+    "stdout": "12\n",
+    "exit": 0
+  },
+  {
+    "name": "case 2",
+    "stdin": "2 -1 -4\n",
+    "stdout": "0\n",
+    "exit": 0
+  }
+]

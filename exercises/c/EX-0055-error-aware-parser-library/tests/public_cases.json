@@ -1,0 +1,20 @@
+[
+  {
+    "name": "case 1",
+    "stdin": "8080\n",
+    "stdout": "8080\n",
+    "exit": 0
+  },
+  {
+    "name": "case 2",
+    "stdin": "80000\n",
+    "stdout": "invalid\n",
+    "exit": 0
+  },
+  {
+    "name": "case 3",
+    "stdin": "12x\n",
+    "stdout": "invalid\n",
+    "exit": 0
+  }
+]

@@ -1,6 +1,6 @@
 # EX-0059 — Binary search tree index
 
-- **Track:** C mastery · stage 3/10 manual memory, data structures, modular builds · 59/100
+- **Track:** C mastery · module 6/10 · 59/100
 - **Target skills:** PROG-C-ALGORITHMS
 - **Difficulty / estimated time:** 7/10 · 100–200 minutes
 - **Prerequisites:** functions, pointers, arrays, and at least one preceding heap/struct practice exercise.

@@ -1,6 +1,6 @@
 # EX-0066 — Safe atomic configuration save
 
-- **Track:** C mastery · stage 4/10 files, process API and POSIX systems programming · 66/100
+- **Track:** C mastery · module 7/10 · 66/100
 - **Target skills:** PROG-C-POSIX-FS
 - **Difficulty / estimated time:** 7/10 · 90–180 minutes
 - **Prerequisites:** stage 3 memory ownership + error handling; familiarity with Linux command line recommended.

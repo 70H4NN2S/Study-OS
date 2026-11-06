@@ -1,6 +1,6 @@
 # EX-0065 — Binary hexdump
 
-- **Track:** C mastery · stage 4/10 files, process API and POSIX systems programming · 65/100
+- **Track:** C mastery · module 7/10 · 65/100
 - **Target skills:** PROG-C-FILES
 - **Difficulty / estimated time:** 7/10 · 90–180 minutes
 - **Prerequisites:** stage 3 memory ownership + error handling; familiarity with Linux command line recommended.

@@ -1,6 +1,6 @@
 # EX-0071 — Descriptor-based copier
 
-- **Track:** C mastery · stage 4/10 files, process API and POSIX systems programming · 71/100
+- **Track:** C mastery · module 8/10 · 71/100
 - **Target skills:** PROG-C-POSIX-FS
 - **Difficulty / estimated time:** 8/10 · 120–240 minutes
 - **Prerequisites:** stage 3 memory ownership + error handling; familiarity with Linux command line recommended.

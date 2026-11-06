@@ -1,6 +1,6 @@
 # EX-0085 — Producer-consumer ring
 
-- **Track:** C mastery · stage 5/10 advanced systems, concurrency, memory and integration · 85/100
+- **Track:** C mastery · module 9/10 · 85/100
 - **Target skills:** PROG-C-CONCURRENCY
 - **Difficulty / estimated time:** 8/10 · 2–5 hours
 - **Prerequisites:** stages 1–4; Linux VM strongly recommended (Debian/Ubuntu), C11, Make, POSIX APIs, debugger/sanitizers.

@@ -1,6 +1,6 @@
 # EX-0075 — Fork and wait timeline
 
-- **Track:** C mastery · stage 4/10 files, process API and POSIX systems programming · 75/100
+- **Track:** C mastery · module 8/10 · 75/100
 - **Target skills:** PROG-C-PROCESSES
 - **Difficulty / estimated time:** 8/10 · 120–240 minutes
 - **Prerequisites:** stage 3 memory ownership + error handling; familiarity with Linux command line recommended.

@@ -1,6 +1,6 @@
 # EX-0078 — Two-stage pipeline
 
-- **Track:** C mastery · stage 4/10 files, process API and POSIX systems programming · 78/100
+- **Track:** C mastery · module 8/10 · 78/100
 - **Target skills:** PROG-C-IPC
 - **Difficulty / estimated time:** 8/10 · 120–240 minutes
 - **Prerequisites:** stage 3 memory ownership + error handling; familiarity with Linux command line recommended.

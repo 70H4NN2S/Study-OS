@@ -1,0 +1,20 @@
+[
+  {
+    "name": "case 1",
+    "stdin": "+17\n",
+    "stdout": "17\n",
+    "exit": 0
+  },
+  {
+    "name": "case 2",
+    "stdin": "12x\n",
+    "stdout": "invalid\n",
+    "exit": 0
+  },
+  {
+    "name": "case 3",
+    "stdin": "2147483648\n",
+    "stdout": "invalid\n",
+    "exit": 0
+  }
+]

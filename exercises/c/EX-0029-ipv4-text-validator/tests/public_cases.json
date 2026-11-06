@@ -1,0 +1,20 @@
+[
+  {
+    "name": "case 1",
+    "stdin": "192.168.1.10\n",
+    "stdout": "valid\n",
+    "exit": 0
+  },
+  {
+    "name": "case 2",
+    "stdin": "256.1.2.3\n",
+    "stdout": "invalid\n",
+    "exit": 0
+  },
+  {
+    "name": "case 3",
+    "stdin": "01.2.3.4\n",
+    "stdout": "invalid\n",
+    "exit": 0
+  }
+]

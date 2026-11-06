@@ -1,12 +1,12 @@
 [
   {
-    "name": "safe subtraction",
+    "name": "case 1",
     "stdin": "-5 2\n",
     "stdout": "-3\n",
     "exit": 0
   },
   {
-    "name": "positive overflow",
+    "name": "case 2",
     "stdin": "2147483647 1\n",
     "stdout": "overflow\n",
     "exit": 1

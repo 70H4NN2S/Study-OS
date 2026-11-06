@@ -1,12 +1,12 @@
 [
   {
-    "name": "read execute",
+    "name": "case 1",
     "stdin": "5\n",
     "stdout": "r-x\n",
     "exit": 0
   },
   {
-    "name": "no flags",
+    "name": "case 2",
     "stdin": "0\n",
     "stdout": "---\n",
     "exit": 0

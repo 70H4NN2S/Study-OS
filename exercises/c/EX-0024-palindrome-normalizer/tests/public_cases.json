@@ -1,0 +1,14 @@
+[
+  {
+    "name": "case 1",
+    "stdin": "A man, a plan, a canal: Panama\n",
+    "stdout": "yes\n",
+    "exit": 0
+  },
+  {
+    "name": "case 2",
+    "stdin": "hello\n",
+    "stdout": "no\n",
+    "exit": 0
+  }
+]

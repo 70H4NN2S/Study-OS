@@ -1,0 +1,14 @@
+[
+  {
+    "name": "case 1",
+    "stdin": "3 SET a 2 SET b 9 DEL a",
+    "stdout": "b=9\n",
+    "exit": 0
+  },
+  {
+    "name": "case 2",
+    "stdin": "2 SET a 4 DEL a",
+    "stdout": "empty\n",
+    "exit": 0
+  }
+]

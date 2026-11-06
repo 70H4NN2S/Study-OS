@@ -1,0 +1,14 @@
+[
+  {
+    "name": "case 1",
+    "stdin": "3 alpha beta gamma",
+    "stdout": "beta\ngamma\n",
+    "exit": 0
+  },
+  {
+    "name": "case 2",
+    "stdin": "1 only",
+    "stdout": "only\n",
+    "exit": 0
+  }
+]

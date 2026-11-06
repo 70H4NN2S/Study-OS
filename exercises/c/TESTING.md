@@ -1,5 +1,9 @@
-# Public C checks
+# Run a C exercise
 
-Use `python3 tools/check_c.py EX-0001` after writing a learner solution in `exercises/c/EX-0001-.../src/*.c`. The checker compiles under strict C11 flags and runs published examples from `tests/public_cases.json` where present. The rest require manual test plans and later independent review. **Public examples are a smoke test, never a grade, a proof of memory safety, or evidence of mastery.**
+1. Write the source in `exercises/c/EX-xxxx-.../src/main.c`.
+2. From the repo root: `python3 tools/check_c.py EX-0001` (change the ID).
+3. Commit and send the exact SHA/PR for review.
 
-Add new executable public cases to each task only when the CLI/API contract is unambiguous; do not commit answer keys. Reviewer-created independent cases should be developed after a real submission, with the student's permission if hidden materials are involved. Advanced POSIX/threading tasks require Linux and potentially a task-specific harness.
+The checker compiles with C11 warnings and runs 1–3 **public exact stdin/stdout examples for all 100 exercises**, including exit status. Some tasks explicitly require additional sources, headers or a Makefile. Linux is recommended for POSIX, pthread and mmap tasks (#71–100).
+
+**Passing public tests is not a grade.** Independent cases, cleanup, robustness and understanding are assessed on your submitted code. No mandatory test report or reflection file.

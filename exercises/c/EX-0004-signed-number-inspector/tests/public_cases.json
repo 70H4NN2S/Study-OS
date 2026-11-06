@@ -1,12 +1,12 @@
 [
   {
-    "name": "negative odd",
+    "name": "case 1",
     "stdin": "-3\n",
     "stdout": "negative odd\n",
     "exit": 0
   },
   {
-    "name": "zero",
+    "name": "case 2",
     "stdin": "0\n",
     "stdout": "zero even\n",
     "exit": 0

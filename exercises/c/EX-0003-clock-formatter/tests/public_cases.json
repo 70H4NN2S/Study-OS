@@ -1,12 +1,12 @@
 [
   {
-    "name": "one hour",
+    "name": "case 1",
     "stdin": "3661\n",
     "stdout": "01:01:01\n",
     "exit": 0
   },
   {
-    "name": "beyond 24 hours",
+    "name": "case 2",
     "stdin": "90061\n",
     "stdout": "25:01:01\n",
     "exit": 0

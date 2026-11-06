@@ -8,7 +8,7 @@
   {
     "name": "case 2",
     "stdin": "xy",
-    "stdout": "xy\n",
+    "stdout": "xy",
     "exit": 0
   }
 ]

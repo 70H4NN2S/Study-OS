@@ -2,13 +2,13 @@
   {
     "name": "case 1",
     "stdin": "abcde",
-    "stdout": "abcde\n",
+    "stdout": "abcde",
     "exit": 0
   },
   {
     "name": "case 2",
     "stdin": "X",
-    "stdout": "X\n",
+    "stdout": "X",
     "exit": 0
   }
 ]

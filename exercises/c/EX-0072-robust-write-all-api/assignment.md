@@ -4,7 +4,7 @@
 
 **Task:** Write `write_all(fd,buf,n)` that loops over writes of at most 2 bytes. Read ≤20 bytes from stdin and echo to stdout.
 
-**Cases (stdin → stdout):** `"abcde"` → `"abcde\n"` · `"X"` → `"X\n"`
+**Cases (stdin → stdout):** `"abcde"` → `"abcde"` · `"X"` → `"X"`
 
 **Rules:** Handle partial writes and EINTR; preserve exact bytes.
 

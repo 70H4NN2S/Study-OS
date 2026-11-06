@@ -4,7 +4,7 @@
 
 **Task:** Read stdin via POSIX `read` and copy every byte to stdout using `write`.
 
-**Cases (stdin → stdout):** `"hello\n"` → `"hello\n"` · `"xy"` → `"xy\n"`
+**Cases (stdin → stdout):** `"hello\n"` → `"hello\n"` · `"xy"` → `"xy"`
 
 **Rules:** Handle short writes and EOF. Do not use `stdio` for data transfer.
 

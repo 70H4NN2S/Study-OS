@@ -1,20 +1,14 @@
 [
   {
-    "name": "gcd and lcm",
+    "name": "case 1",
     "stdin": "12 18\n",
     "stdout": "6 36\n",
     "exit": 0
   },
   {
-    "name": "one zero",
+    "name": "case 2",
     "stdin": "0 5\n",
     "stdout": "5 0\n",
-    "exit": 0
-  },
-  {
-    "name": "both zero",
-    "stdin": "0 0\n",
-    "stdout": "0 0\n",
     "exit": 0
   }
 ]

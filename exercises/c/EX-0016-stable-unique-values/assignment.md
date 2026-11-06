@@ -1,51 +1,11 @@
 # EX-0016 — Stable unique values
 
-- **Track:** Progressive C mastery · module 2/10 · exercise 16/100
-- **Target skills:** PROG-C-ARRAYS
-- **Difficulty / estimated time:** 4/10 · 35–70 minutes
-- **Prerequisites:** EX-0015 recommended; do not require perfect completion
-- **Prior connections:** Reuse input validation, control flow and correct numerical reasoning from earlier exercises.
+**Time:** ~20 min · **Skill:** `PROG-C-ARRAYS`
 
-## Retrieval before coding (3–5 minutes)
-Without opening notes, answer: **Explain O(N²) time and when it matters.** Save your prediction in `reflection.md`; revise it after testing.
+**Task:** Read `n` (0..20) then n integers; print distinct values in first-seen order.
 
-## Assignment
-Read N (0..100), followed by N integers. Print each distinct value once in its first-occurrence order, separated by one space and ending with a newline.
+**Cases (stdin → stdout):** `"6 4 2 4 1 2 1\n"` → `"4 2 1\n"` · `"0\n"` → `"\n"`
 
-**Observable contract:** Input `6 4 2 4 1 2 1` -> `4 2 1`; N=0 -> empty line.
+**Rules:** Space-separated, no trailing space. For n=0 print empty line.
 
-**Pitfall to address:** Use a fixed capacity and defend every index.
-
-## Setup and starter files
-Create `src/main.c` yourself under this exercise directory. No implementation or solution is supplied. Compile with:
-
-```sh
-gcc -std=c11 -pedantic -D_XOPEN_SOURCE=700 -Wall -Wextra -Werror -g -o app src/main.c
-```
-
-Use standard input and standard output unless specified above; no interactive prompts. Extra trailing non-whitespace input is invalid unless the task explicitly defines a command stream. On malformed input print a short explanation to stderr, exit 2, and do not print a misleading success result. A valid run exits 0 unless stated otherwise.
-
-## Deliverables
-Commit `src/main.c`, `tests.md` (at least 4 manually run cases with expected and actual output), and `reflection.md` (pre-code prediction, failures, assumptions, and explanation). Submit a Study OS PR or exact commit SHA; **never** put your solution into the university GitLab exercise repository.
-
-## Allowed help
-Personal notes and public C/POSIX documentation: **yes**. Internet: **yes, for documentation**. AI: tiers 1–2 allowed after a genuine independent attempt; tier 3 only after recording the blocker; tier 4 only after you request a post-attempt walkthrough. Record the highest tier used; do not paste generated code without understanding it. This is a **separate original practice exercise**, not a TU Braunschweig graded task.
-
-## Acceptance criteria
-- The behavioral contract and the named example/edge cases hold exactly.
-- Reject malformed input; prevent out-of-bounds accesses, integer overflow and undefined behavior.
-- Clean C11 compilation with the flags above and no unnecessary global state.
-- Explain your algorithm and give its time/space complexity when relevant.
-- `tests.md` covers ordinary, boundary, invalid and adversarial input.
-
-## Rubric (100 points)
-- Correct output and specification: **50**
-- Boundary cases, safety, and explanation of use a fixed capacity and defend every index: **25**
-- Readability, compilation, reproducible tests: **15**
-- Independent oral/written explanation and reflection: **10**
-
-## Verification
-Reviewer compiles the exact submitted commit, runs user tests and independent boundary/invalid cases, inspects source for UB, and asks one transfer question. No automatic passing status is implied by this assignment. Use sanitizers where available. Record score and mastery separately **after** evidence review.
-
-## Delayed transfer
-Within 3–7 days, solve one related problem with different inputs/constraints without re-reading this implementation; schedule only after assessment.
+**Submit:** `src/main.c`. Check: `python3 tools/check_c.py EX-0016`.

@@ -1,18 +1,18 @@
 [
   {
-    "name": "two",
+    "name": "case 1",
     "stdin": "2\n",
     "stdout": "prime\n",
     "exit": 0
   },
   {
-    "name": "square",
+    "name": "case 2",
     "stdin": "9\n",
     "stdout": "composite\n",
     "exit": 0
   },
   {
-    "name": "one",
+    "name": "case 3",
     "stdin": "1\n",
     "stdout": "neither\n",
     "exit": 0

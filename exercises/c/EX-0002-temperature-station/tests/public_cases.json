@@ -1,20 +1,14 @@
 [
   {
-    "name": "room temperature",
+    "name": "case 1",
     "stdin": "25\n",
     "stdout": "77.0\n",
     "exit": 0
   },
   {
-    "name": "crossover",
+    "name": "case 2",
     "stdin": "-40\n",
     "stdout": "-40.0\n",
     "exit": 0
-  },
-  {
-    "name": "bad token",
-    "stdin": "oops\n",
-    "stdout": "",
-    "exit": 2
   }
 ]

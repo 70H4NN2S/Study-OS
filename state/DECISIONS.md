@@ -9,3 +9,10 @@
 - Strict rubric-based correction, feedback-led improvements, stateful mastery/review tracking based only on actual evidence.
 - No Anki; avoid separate application, excessive ceremony and speculative scores.
 - Public repository for now by user choice; handle personal and restricted materials carefully.
+
+## 2026-11-06 — focused exercise format (proposed)
+- Default exercises: 5–60 min, usually 10–30; one focused concept, no compulsory multi-session projects.
+- Compact instructions: task, exact cases, essential rules, submit path, time and skill; move rubrics/help/verification to STUDY_OS.md.
+- No routine `tests.md` or `reflection.md`; source code + commit is enough for a C microchallenge. Extra deliverables only when indispensable.
+- All 100 existing C exercises keep stable EX IDs but use small requirements and concrete public cases; bigger projects/exams remain separate opt-in work.
+- Avoid recording personal medical information or private learning reflections in the public repository.

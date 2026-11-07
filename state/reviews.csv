@@ -1,2 +1,11 @@
 review_id,skill_id,last_attempt,next_due,interval_days,reason,status,evidence_ref
-R-20261107-EX0101-01,DB-ERM-SCOPE,2026-11-07,2026-11-08,1,Review modeling assumptions and application actions,due,state/evidence/EX-0101-2026-11-07.md
+R-20261107-EX0101-01,DB-ERM-SCOPE,2026-11-07,2026-11-08,1,Review modeling assumptions and application actions,superseded,state/evidence/EX-0101-2026-11-07.md
+R-20261107-DB-01,DB-ERM-ATTRIBUTES,2026-11-07,2026-11-08,1,New scenario: distinguish decomposed and multivalued attributes; avoid adding unstated homes,planned,state/evidence/ER-2026-11-07-session.md
+R-20261107-DB-02,DB-ERM-RECURSIVE,2026-11-07,2026-11-08,1,Independent role-labeled self relationship and explain self-loop and longer cycle constraints,planned,state/evidence/ER-2026-11-07-session.md
+R-20261107-DB-03,DB-ERM-NARY,2026-11-07,2026-11-08,1,Find genuinely spurious triple by verifying all three pairwise projections,planned,state/evidence/ER-2026-11-07-session.md
+R-20261107-DB-04,DB-ERM-WEAK,2026-11-07,2026-11-10,3,Rebuild weak entity from requirements with dashed partial key and explicit min-max,planned,state/evidence/ER-2026-11-07-session.md
+R-20261107-DB-05,DB-ERM-REL-ATTRS,2026-11-07,2026-11-10,3,Explain relationship instance vs attributes vs composite key on fresh domain,planned,state/evidence/ER-2026-11-07-session.md
+R-20261107-DB-06,DB-ERM-SCOPE,2026-11-07,2026-11-14,7,Check independent modeling assumptions and distinguish action from stored relationship,planned,state/evidence/ER-2026-11-07-session.md
+R-20261107-DB-07,DB-ERM-KEYS,2026-11-07,2026-11-14,7,Composite key vs composite attribute and concrete key tuple without nonkey data,planned,state/evidence/ER-2026-11-07-session.md
+R-20261107-DB-08,DB-ERM-CARDINALITY,2026-11-07,2026-11-14,7,Novel bounded 1:N and M:N participation constraints,planned,state/evidence/ER-2026-11-07-session.md
+R-20261107-DB-09,DB-ERM-ENTITIES,2026-11-07,2026-11-21,14,Delayed key and type vs instance retrieval without prompts,planned,state/evidence/ER-2026-11-07-session.md

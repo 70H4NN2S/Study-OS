@@ -1,1 +1,2 @@
 review_id,skill_id,last_attempt,next_due,interval_days,reason,status,evidence_ref
+R-20261107-EX0101-01,DB-ERM-SCOPE,2026-11-07,2026-11-08,1,Review modeling assumptions and application actions,due,state/evidence/EX-0101-2026-11-07.md

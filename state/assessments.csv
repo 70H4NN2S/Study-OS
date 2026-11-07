@@ -1,1 +1,2 @@
 assessment_id,date,assignment_id,skill_id,score_percent,mastery_observation,help_level,evidence_ref,feedback_ref,notes
+A-20261107-EX0101-01,2026-11-07,EX-0101,DB-ERM-SCOPE,76,2,0,state/evidence/EX-0101-2026-11-07.md,state/evidence/EX-0101-2026-11-07.md,"provisional formative score; unsupported (0,1) bounds and missing explicit explanation"

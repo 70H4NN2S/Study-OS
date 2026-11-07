@@ -1,1 +1,10 @@
 skill_id,mastery,last_assessed,confidence,evidence_ref,notes
+DB-ERM-SCOPE,2,2026-11-07,medium,state/evidence/ER-2026-11-07-session.md,Followup clarified ungrounded min-max assumptions and persistent-vs-application boundary
+DB-ERM-ENTITIES,3,2026-11-07,medium,state/evidence/ER-2026-11-07-session.md,Independent Exhibit diagram; key justification; delayed recall still untested
+DB-ERM-ATTRIBUTES,2,2026-11-07,medium,state/evidence/ER-2026-11-07-session.md,EX-0103 classification confusion; EX-0104 correct visual modeling after feedback
+DB-ERM-KEYS,3,2026-11-07,medium,state/evidence/ER-2026-11-07-session.md,Minimal composite key drawn; key tuple needed a short correction
+DB-ERM-CARDINALITY,3,2026-11-07,high,state/evidence/ER-2026-11-07-session.md,Independent EX-0106 EX-0107 and EX-0109 with correct intervals and countercases
+DB-ERM-REL-ATTRS,2,2026-11-07,medium,state/evidence/ER-2026-11-07-session.md,Diagram correct; uniqueness vs participation conceptual clarification followed by 3/3 recall
+DB-ERM-WEAK,2,2026-11-07,medium,state/evidence/ER-2026-11-07-session.md,"Correct weak identifying structure; partial key and (1,1) notation need reinforcement"
+DB-ERM-RECURSIVE,2,2026-11-07,medium,state/evidence/ER-2026-11-07-session.md,First attempt 68; corrected 100 after worked guidance; independent unfamiliar case still due
+DB-ERM-NARY,2,2026-11-07,low,state/evidence/ER-2026-11-07-session.md,Correct ternary diagram but incorrect spurious triple; counterexample re-test needed

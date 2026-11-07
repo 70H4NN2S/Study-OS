@@ -7,6 +7,8 @@ In any ChatGPT chat with GitHub access: **"Study OS: read STUDY_OS.md and state/
 
 **Default trigger:** Simply write **"Study OS: [topic or provided materials]"**. For a study task, ChatGPT should read the relevant repository context and source materials and **open an exercise or exam PR automatically**; no additional "make a PR" instruction is needed. For reviews, it grades your submission instead. Explicit discussion-only requests do not generate assignments.
 
+**ER/EER modeling:** [24 progressive, original Chen modeling exercises](exercises/db/README.md) — start at EX-0101; hand-drawn photos or exported diagrams are accepted and manually graded.
+
 **C coding:** [100 short practice exercises](exercises/c/README.md) (5–55 minutes each, public cases and simple code submissions).
 
 ## Structure

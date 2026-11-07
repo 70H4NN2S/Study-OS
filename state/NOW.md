@@ -1,3 +1,3 @@
-# Current status — 2026-11-06
+# Current status — 2026-11-07
 
-Study OS foundation and the 100-task C curriculum were merged. This PR proposes shorter **5–55 minute** C drills, exact public cases for every task, and simpler Study OS exercise defaults. No exercise completions, learner scores or mastery levels are recorded. Next: review/merge the microchallenge update, attempt EX-0001, submit exact commit and request feedback. No automatic monitoring is running.
+Study OS foundation and 100 short C drills are merged. No exercise completions or scores are recorded. A reviewable PR proposes 24 original ER/EER Chen practice tasks (EX-0101 to EX-0124) aligned to university lecture topics; no university homework solutions or PDFs are committed. New DB-ERM and DB-EER skills are registered as proposed, not assessed. Start EX-0101 independently, submit a short answer here or via GitHub, and get strict evidence-based grading before moving to EX-0102. Text, clear paper photos and editable diagrams are accepted. Follow-ups and spaced reviews are user-triggered, not background monitoring.

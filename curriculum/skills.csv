@@ -30,3 +30,18 @@ PROG-C-CONCURRENCY,programming,C,"Synchronize POSIX threads and prevent races/de
 PROG-C-ATOMICS,programming,C,"Use C11 atomic operations and memory ordering",PROG-C-CONCURRENCY,proposed
 PROG-C-NETWORK,programming,C,"Implement bounded loopback TCP protocols",PROG-C-POSIX-FS,proposed
 PROG-C-SECURITY,programming,C,"Recognize undefined behavior and validate hostile inputs",PROG-C-POINTERS,proposed
+DB-ERM-SCOPE,databases,ER modeling,Identify entity attribute relationship and operation from requirements,,proposed
+DB-ERM-ENTITIES,databases,ER modeling,Draw Chen entity types and identifying attributes,DB-ERM-SCOPE,proposed
+DB-ERM-ATTRIBUTES,databases,ER modeling,Classify and draw simple composite multivalued and derived attributes,DB-ERM-ENTITIES,proposed
+DB-ERM-KEYS,databases,ER modeling,Choose minimal single or composite identifying attribute sets,DB-ERM-ENTITIES,proposed
+DB-ERM-CARDINALITY,databases,ER modeling,Model and explain min-max participation in classic Chen notation,DB-ERM-ENTITIES,proposed
+DB-ERM-REL-ATTRS,databases,ER modeling,Identify attributes belonging to relationship instances,DB-ERM-CARDINALITY,proposed
+DB-ERM-WEAK,databases,ER modeling,Model weak entities partial keys and identifying relationships,DB-ERM-KEYS,proposed
+DB-ERM-RECURSIVE,databases,ER modeling,Model recursive relationships with explicit roles,DB-ERM-CARDINALITY,proposed
+DB-ERM-NARY,databases,ER modeling,Preserve ternary relationship semantics and avoid spurious tuples,DB-ERM-CARDINALITY,proposed
+DB-ERM-INTEGRITY,databases,ER modeling,Specify residual integrity rules not encoded in ER,DB-ERM-CARDINALITY,proposed
+DB-EER-SPECIALIZATION,databases,Extended ER,Model total partial disjoint overlapping and predicate specialization,DB-ERM-ENTITIES,proposed
+DB-EER-CATEGORY,databases,Extended ER,Build and explain union or category types,DB-EER-SPECIALIZATION,proposed
+DB-ERM-VALIDATION,databases,ER modeling,Critique ER/EER models with counterexamples and requirement traces,DB-ERM-CARDINALITY,proposed
+DB-ERM-INTEGRATION,databases,ER modeling,Reconcile overlapping ER views and conceptual conflicts,DB-ERM-VALIDATION,proposed
+DB-ERM-MAPPING,databases,ER modeling,Translate ER/EER models to relational schemas and identify residual constraints,DB-ERM-KEYS,proposed

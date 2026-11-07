@@ -45,3 +45,8 @@ DB-EER-CATEGORY,databases,Extended ER,Build and explain union or category types,
 DB-ERM-VALIDATION,databases,ER modeling,Critique ER/EER models with counterexamples and requirement traces,DB-ERM-CARDINALITY,proposed
 DB-ERM-INTEGRATION,databases,ER modeling,Reconcile overlapping ER views and conceptual conflicts,DB-ERM-VALIDATION,proposed
 DB-ERM-MAPPING,databases,ER modeling,Translate ER/EER models to relational schemas and identify residual constraints,DB-ERM-KEYS,proposed
+SEC-CRYPTO-CLASSICAL,security,Symmetric cryptography,Implement Caesar monoalphabetic and Vigenere ciphers,,proposed
+SEC-CRYPTO-ANALYSIS,security,Classical cryptanalysis,Recover classical cipher keys from ciphertext,SEC-CRYPTO-CLASSICAL,proposed
+SEC-CRYPTO-XOR,security,One-time pad,Explain XOR perfect secrecy and demonstrate key reuse failure,,proposed
+SEC-CRYPTO-BLOCK,security,Block ciphers,Use AES ECB CBC and CTR with published vectors,,proposed
+SEC-CRYPTO-AEAD,security,Authenticated encryption,Use and verify AES-GCM tags and nonce requirements,SEC-CRYPTO-BLOCK,proposed

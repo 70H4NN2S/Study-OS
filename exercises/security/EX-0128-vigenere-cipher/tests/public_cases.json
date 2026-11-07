@@ -1,0 +1,26 @@
+[
+  {
+    "function": "encrypt",
+    "args": [
+      "ATTACKATDAWN",
+      "LEMON"
+    ],
+    "expected": "LXFOPVEFRNHR"
+  },
+  {
+    "function": "decrypt",
+    "args": [
+      "LXFOPVEFRNHR",
+      "LEMON"
+    ],
+    "expected": "ATTACKATDAWN"
+  },
+  {
+    "function": "encrypt",
+    "args": [
+      "HELLO WORLD",
+      "KEY"
+    ],
+    "expected": "RIJVS UYVJN"
+  }
+]

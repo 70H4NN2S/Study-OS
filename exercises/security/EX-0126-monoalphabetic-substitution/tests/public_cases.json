@@ -1,0 +1,26 @@
+[
+  {
+    "function": "encrypt",
+    "args": [
+      "ABC xyz!",
+      "QWERTYUIOPASDFGHJKLZXCVBNM"
+    ],
+    "expected": "QWE bnm!"
+  },
+  {
+    "function": "decrypt",
+    "args": [
+      "QWE bnm!",
+      "QWERTYUIOPASDFGHJKLZXCVBNM"
+    ],
+    "expected": "ABC xyz!"
+  },
+  {
+    "function": "encrypt",
+    "args": [
+      "Attack at dawn!",
+      "NOPQRSTUVWXYZABCDEFGHIJKLM"
+    ],
+    "expected": "Nggnpx ng qnja!"
+  }
+]

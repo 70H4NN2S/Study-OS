@@ -11,6 +11,8 @@ In any ChatGPT chat with GitHub access: **"Study OS: read STUDY_OS.md and state/
 
 **C coding:** [100 short practice exercises](exercises/c/README.md) (5–55 minutes each, public cases and simple code submissions).
 
+**Symmetric cryptography:** [10 short original exercises](exercises/security/README.md) (classical ciphers, cryptanalysis, XOR, AES modes and authenticated encryption).
+
 ## Structure
 - [STUDY_OS.md](STUDY_OS.md): authoritative operating rules
 - [AGENTS.md](AGENTS.md): entry point for future chats/agents

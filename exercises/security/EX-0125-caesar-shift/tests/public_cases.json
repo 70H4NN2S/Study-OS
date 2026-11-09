@@ -1,0 +1,34 @@
+[
+  {
+    "function": "encrypt",
+    "args": [
+      "Hello, World!",
+      3
+    ],
+    "expected": "Khoor, Zruog!"
+  },
+  {
+    "function": "decrypt",
+    "args": [
+      "Khoor, Zruog!",
+      3
+    ],
+    "expected": "Hello, World!"
+  },
+  {
+    "function": "encrypt",
+    "args": [
+      "abc",
+      -1
+    ],
+    "expected": "zab"
+  },
+  {
+    "function": "encrypt",
+    "args": [
+      "Zoo!",
+      1
+    ],
+    "expected": "App!"
+  }
+]

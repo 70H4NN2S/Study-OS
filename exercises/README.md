@@ -7,3 +7,6 @@ See [100 original C exercises](c/README.md), the [curriculum map](../curriculum/
 
 ## ER/EER database modeling
 [24 small, original Chen modeling exercises](db/README.md) start from identifying entities and finish with EER, view integration, relational mapping and a capstone. Submit clear diagram images/photos or text in chat, or commit the artifact for review. The evaluator checks semantic accuracy manually; no course homework answers are included.
+
+## Symmetric cryptography
+[10 short exercises](security/README.md) aligned with sec-02-crypto.pdf, including classical cryptanalysis and modern AES modes. Public vectors: `python3 tools/check_crypto.py EX-0125`.

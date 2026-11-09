@@ -1,0 +1,36 @@
+[
+  {
+    "function": "xor_hex",
+    "args": [
+      "4142",
+      "0102"
+    ],
+    "expected": "4040"
+  },
+  {
+    "function": "recover_second_hex",
+    "args": [
+      "4040",
+      "4246",
+      "4142"
+    ],
+    "expected": "4344"
+  },
+  {
+    "function": "xor_hex",
+    "args": [
+      "00",
+      "0001"
+    ],
+    "raises": "ValueError"
+  },
+  {
+    "function": "recover_second_hex",
+    "args": [
+      "00",
+      "0001",
+      "01"
+    ],
+    "raises": "ValueError"
+  }
+]
